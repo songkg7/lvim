@@ -3,21 +3,7 @@
 -- Forum: https://www.reddit.com/r/lunarvim/
 -- Discord: https://discord.com/invite/Xb9B4Ny
 
--- plugins
-lvim.plugins = {
-  {
-    "zbirenbaum/copilot.lua",
-    cmd = "Copilot",
-    event = "InsertEnter",
-  },
-  {
-    "zbirenbaum/copilot-cmp",
-    after = { "copilot.lua" },
-    config = function()
-      require("copilot_cmp").setup()
-    end,
-  },
-}
+require('plugins')
 
 -- copilot setup
 local ok, copilot = pcall(require, "copilot")
