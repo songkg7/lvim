@@ -12,5 +12,7 @@ lvim.plugins = {
       require("copilot_cmp").setup()
     end,
   },
+  { 'Lokaltog/vim-easymotion' },
+  { 'tpope/vim-surround' },
 }
 
