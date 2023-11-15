@@ -9,7 +9,7 @@
   "cmp-path": { "branch": "main", "commit": "91ff86cd9c29299a64f968ebb45846c485725f23" },
   "cmp_luasnip": { "branch": "master", "commit": "18095520391186d634a0045dacaa346291096566" },
   "copilot-cmp": { "branch": "master", "commit": "72fbaa03695779f8349be3ac54fa8bd77eed3ee3" },
-  "copilot.lua": { "branch": "master", "commit": "688762a3999eeee54b78f447719854f52672ec02" },
+  "copilot.lua": { "branch": "master", "commit": "73047082d72fcfdde1f73b7f17ad495cffcbafaa" },
   "friendly-snippets": { "branch": "main", "commit": "631f79e346b0b3203d2ce3eae619ca8d612e5463" },
   "gitsigns.nvim": { "branch": "main", "commit": "e5edefd9976039f5352e0c900f35206770b33a2d" },
   "indent-blankline.nvim": { "branch": "master", "commit": "018bd04d80c9a73d399c1061fa0c3b14a7614399" },
@@ -44,7 +44,6 @@
   "vim-easymotion": { "branch": "master", "commit": "b3cfab2a6302b3b39f53d9fd2cd997e1127d7878" },
   "vim-illuminate": { "branch": "master", "commit": "a2907275a6899c570d16e95b9db5fd921c167502" },
   "vim-multiple-cursors": { "branch": "master", "commit": "6456718e1d30b42c04b920c5413ca44f68f08759" },
-  "vim-smooth-scroll": { "branch": "master", "commit": "0eae2367c70c3415b97869346af1b5e30c123dff" },
   "vim-surround": { "branch": "master", "commit": "3d188ed2113431cf8dac77be61b842acb64433d9" },
   "which-key.nvim": { "branch": "main", "commit": "4acffc92953a90a790603bfdab7c92319ab167b1" }
 }
