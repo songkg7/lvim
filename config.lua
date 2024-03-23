@@ -8,18 +8,18 @@ require('plugins')
 -- copilot setup
 local ok, copilot = pcall(require, "copilot")
 if not ok then
-  return
+    return
 end
 
 copilot.setup {
-  suggestion = {
-    keymap = {
-      accept = "<c-l>",
-      next = "<c-j>",
-      prev = "<c-k>",
-      dismiss = "<c-h>",
+    suggestion = {
+        keymap = {
+            accept = "<c-l>",
+            next = "<c-j>",
+            prev = "<c-k>",
+            dismiss = "<c-h>",
+        },
     },
-  },
 }
 
 local opts = { noremap = true, silent = true }
