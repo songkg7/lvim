@@ -4,6 +4,7 @@
 -- Discord: https://discord.com/invite/Xb9B4Ny
 
 require('plugins')
+require("lvim.lsp.manager").setup("marksman")
 
 -- copilot setup
 local ok, copilot = pcall(require, "copilot")
