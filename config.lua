@@ -13,6 +13,9 @@ if not ok then
 end
 
 copilot.setup {
+    filetypes = {
+        markdown = true,
+    },
     suggestion = {
         keymap = {
             accept = "<c-l>",
