@@ -15,5 +15,6 @@ lvim.plugins = {
     { 'Lokaltog/vim-easymotion' },
     { 'tpope/vim-surround' },
     { 'terryma/vim-multiple-cursors' },
+    { 'rebelot/kanagawa.nvim' },
 }
 
