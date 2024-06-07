@@ -6,6 +6,8 @@
 require('plugins')
 require("lvim.lsp.manager").setup("marksman")
 
+lvim.colorscheme = "kanagawa"
+
 -- copilot setup
 local ok, copilot = pcall(require, "copilot")
 if not ok then
