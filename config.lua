@@ -17,6 +17,7 @@ end
 copilot.setup {
     filetypes = {
         markdown = true,
+        yaml = true,
     },
     suggestion = {
         keymap = {
