@@ -15,5 +15,6 @@ lvim.plugins = {
     { 'tpope/vim-surround' },
     { 'terryma/vim-multiple-cursors' },
     { 'rebelot/kanagawa.nvim' },
+    { 'fatih/vim-go', build = ':GoUpdateBinaries' },
 }
 
