@@ -1,3 +1,6 @@
+require("lvim.lsp.manager").setup("marksman")
+require("lvim.lsp.manager").setup("tailwindcss")
+
 -- plugins
 lvim.plugins = {
     {
@@ -16,5 +19,20 @@ lvim.plugins = {
     { 'terryma/vim-multiple-cursors' },
     { 'rebelot/kanagawa.nvim' },
     { 'fatih/vim-go', build = ':GoUpdateBinaries' },
+}
+
+-- eslint
+local linters = require "lvim.lsp.null-ls.linters"
+linters.setup {
+  { command = "eslint", filetypes = { "typescript", "typescriptreact" } }
+}
+
+-- prettier
+local formatters = require "lvim.lsp.null-ls.formatters"
+formatters.setup {
+  {
+    command = "prettier",
+    filetypes = { "typescript", "typescriptreact" },
+  },
 }
 
