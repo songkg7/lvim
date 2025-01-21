@@ -15,6 +15,7 @@ end
 
 copilot.setup {
     filetypes = {
+        mdx = true,
         markdown = true,
         yaml = true,
     },
